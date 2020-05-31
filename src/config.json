@@ -1,0 +1,53 @@
+{
+    
+    "botToken":"NjkxNjY3MTU2ODY5NTc4Nzgz.XpArew.XUHJ6Ued2wPtQbFJdO286LRO7hU",
+    "topGGToken":"UNDEFINED",
+    "defaultGuildDB":{"config":{}, "joinCount":0},
+
+    "prefix":"t!",
+
+	"client_options":{
+		"disableEveryone":true,
+		"fetchAllMembers":false,
+		"messageCacheMaxSize":5,
+		"messageCacheLifetime":300,
+		"messageSweepInterval":30,
+		"disabledEvents":[
+			"USER_UPDATE",
+			"USER_NOTE_UPDATE",
+			"USER_SETTINGS_UPDATE",
+			"PRESENCE_UPDATE",
+			"TYPING_START",
+			"WEBHOOKS_UPDATE"
+		]
+	},
+
+	"presence":{
+
+		"status":"dnd",
+
+		"games":[
+
+			{"type":"WATCHING", "name":"t!help"}
+
+		]
+
+    },
+
+    "flexilinkNodes":[
+        {
+            "name": "Node Test #1",
+            "host": "107.179.196.106",
+            "port": "2333",
+            "auth": "flexilinkisthefuture"
+        }
+    ],
+
+
+    "logChannels":["682577204621738028", "695473184509657149"],
+
+    "creators":"LoseJoe",
+    "admins":["514951951243411467", "686998287647113302", "493460004104306688"],
+    "bypass":["514951951243411467", "686998287647113302"]
+}
+
